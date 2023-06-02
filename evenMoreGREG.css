@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/graffiti-font');
+/* font-family: 'Graffiti font', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Gajraj+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+/* Wild West Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
+
+
+
+#clickHeader{
+    text-align: center;
+    color: lime;
+    font-size: 60pt;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hitMe{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 10%;
+    border-color: navy;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10%;
+}
+
+#clickDIV{
+    height: auto;
+    width: auto;
+}
+
+hr{
+    border-color: navy !important;
+    padding: 10px;
+}
+
+#TOTAL{
+    text-align: center;
+    color: deeppink;
+    font-size: 50pt;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.powerup{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    color: #ff0000;
+    text-align: center;
+    font-size: 20pt;
+    background-color: rgb(70, 220, 20);
+    font-weight: bold;
+}
+
+#UPGRADES, #topPlayers{
+    text-align: center;
+    color: lime;
+    font-size: 60pt;
+    font-family: "Gajraj One";
+    padding: 15px;
+
+
+}
+
+#powers{
+background-image: url("galaxy.jpg");
+
+}
+
+#passwordBox , #SUBMITCHEAT{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 12pt;
+    color: fuchsia;
+    background-color: indigo;
+}
+
+#terms{
+    text-align: center;
+    border-color: red;
+    border-style: double;
+    border-width: 2px;
+    color: lime;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+#leaderboard{
+    background-image: url(galaxy.jpg);
+}
+
+.topDawg{
+    text-align: center;
+    color: lime;
+    font-size: 45pt;
+    font-family: 'Graffiti font', sans-serif;
+    font-weight: bold;
+
+}
+
+
+/* redeem.html tags */
+
+#howToPrizes{
+    text-align: center;
+    color: lime;
+    font-size: 40pt;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #ff0000;
+    font-family: 'Iceland', cursive;
+
+}
+
+#funny{
+    font-family: 'Rubik Puddles', cursive  !important;
+    font-style: italic;
+
+}
+
+.getPRIZE{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    font-size: 15pt;
+    text-align: center;
+    color: lime;
+    background-color: darkmagenta;
+}
+
+#NFT4{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 400px;
+    width: 600px;
+}
+
+#hot{
+    font-family: Rancho;
+    color: yellow;
+    text-shadow: orange 4px 4px;
+
+}
+
+#COVER{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 550px;
+    width: 500px;
+}

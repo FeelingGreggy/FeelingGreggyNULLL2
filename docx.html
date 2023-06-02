@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link href="GREG.css" rel="stylesheet">
+
+<link href="moreGREG.css" rel="stylesheet">
+
+<title>LIBRARY</title>
+
+<style> hr {background-color: lime;border-color: lime;}</style>
+
+<script>
+    function downloadFile() {
+        //This changes the source of the image you click on
+         var image = document.getElementById('embassy');
+        image.src = "IPaddress.gif";
+
+     const url = "./embassy.jpg";
+      const filename = "embassy.jpg";
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    }
+    </script>
+
+<script>
+    function downloadFiles() {
+        //This changes the source of the image you click on
+         let image2 = document.getElementById('embassyII');
+        image2.src = "IPaddress.gif";
+
+     const url = "./viewsII.jpg";
+      const filename = "viewsII.jpg";
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    }
+    </script> 
+    
+    
+    <script>
+        function downloadFiless() {
+            //This changes the source of the image you click on
+             var image = document.getElementById('embassyIII');
+            image.src = "IPaddress.gif";
+    
+         const url = "./viewsIII.jpg";
+          const filename = "viewsIII.jpg";
+          const link = document.createElement("a");
+          link.href = url;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          
+        }
+        </script>    
+
+
+<script>
+    function teacherNULL() {
+        
+     const url = "./TeacherForm.docx";
+      const filename = "TeacherForm.docx";
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    }
+    </script>    
+
+<script>
+    function displayISOS() {
+        // Plays sound and displays the ISOS for download
+        const MLG_SOUND = new Audio();
+        MLG_SOUND.src = "./MLG.mp3";
+        MLG_SOUND.play();
+        
+        element = document.querySelector('#hiddenISOS');
+        element.style.visibility = 'visible';
+
+
+    }
+    </script>   
+    
+<script>
+
+function YOUTHOUGHT (){
+    alert("YOU THOUGHT!!!");
+}
+
+
+</script>    
+
+
+    
+<link href="CSSS.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<a id="DEMOWARP" href="demo.html">   
+    
+<h1 id="intro">Gregory Miller Points</h1>
+
+</a>
+
+<h2 id="age">THE NEW AGE OF CRYPTO</h2>
+
+<a href="index.html" class="warp">RETURN TO HOMEPAGE</a>
+
+<h3 id="sub">Welcome to the Gregory Miller Points Library. Here you can get FILES and explore
+    more of the perks of rebuilding the future!
+</h3>
+
+<br>
+
+<div id="files">
+
+<p class="getters">DOWNLOAD EMABASSY : View 1</p>
+
+<img src="embassy.jpg" id="embassy" class="views" onclick="downloadFile()";>
+
+<p class="getters">DOWNLOAD EMABASSY : View 2</p>
+
+<img src="viewsII.jpg" id="embassyII" class="views" onclick="downloadFiles()";>
+
+<p class="getters">DOWNLOAD EMABASSY : View 3</p>
+
+<img src="viewsIII.jpg"  id="embassyIII" class="views" onclick="downloadFiless()";>
+
+</div>
+
+<h1 id="teacher_form">TEACHER DISCOUNT FORM</h1>
+
+<button id="teacher_button" onclick="teacherNULL()";>REQUEST TEACHER DISCOUNT FORM</button>
+
+<br>
+
+<br>
+
+<hr>
+
+<h1 id="ISO">VIDEO GAME ISOS</h1>
+
+<p id="zipNote">YOU WILL NEED 7-ZIP OR ANOTHER PROGRAM TO UNZIP 7Z FILES !!</p>
+
+<button id="displayISOS" onclick="displayISOS()";>SHOW ISOS</button>
+
+<br>
+
+<button class="hiddenISO" id="hiddenISOS" onclick="YOUTHOUGHT()";>FINAL FANTASY VIII</button>
+
+
+
+
+
+</body>
+</html>
