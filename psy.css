@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Gajraj+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+/* Mr. Augestine was super cool at 10:32 AM on 5/4/2023 */
+
+.psyHeaders {
+    color: lime;
+    text-align: center;
+    font-size: 45pt;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#youSee{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+}
+
+#psyTop{
+    font-family: 'Creepster', cursive !important;
+
+}
+
+hr{
+    background-color: #c90;
+    border-color: #c90;
+}
+
+#TAT{
+    color: lime;
+    text-align: center;
+    font-size: 45pt;
+    font-family: "julee";
+
+}
+
+#TAT:hover{
+    color:cyan;
+    font-family: 'Geostar', cursive;
+}
+
+.center_res{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+}
+
+#ffxRes{
+    font-size: 20pt;
+    padding: 15px;
+    background-color:#000000;
+    color: deeppink !important;
+}
+
+#confirmRes{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #d9d209;
+    background-color: #85f505;
+    font-size: 15pt;
+    font-family: 'Orbitron', sans-serif;
+}

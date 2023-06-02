@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redeem Your Points</title>
+
+<link href="GREG.css" rel="stylesheet">
+
+<link href="moreGREG.css" rel="stylesheet">
+
+<link href="evenMoreGREG.css" rel="stylesheet">
+
+<link href="art_greg.jpg" rel="icon">
+
+<script src="prizes.js" defer></script>
+
+<script>
+
+    type="text/javascript"
+    const audio = new Audio();
+    audio.src = "./MLG.mp3";
+    
+    
+    </script>
+    
+    
+    <script src="red.js" defer></script>
+    
+    
+    <script>
+    const groan = new Audio();
+    groan.src = "./Greg-Groan.mp3";
+    
+    </script>
+    
+    
+<script>
+
+const tacoBell = new Audio("./taco.mp3");
+
+function bongBong (){
+    tacobell.play();
+}
+
+
+</script>
+
+<script>
+    function downloadNFT() {
+        //This changes the source of the image you click on
+         var image = document.getElementById('NFT4');
+        image.src = "IPaddress.gif";
+
+     const url = "./lostNFT.jpg";
+      const filename = "lostNFT.jpg";
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    }
+    </script>    
+
+<script>
+    function tightBEATS() {
+        //This changes the source of the image you click on
+         var image = document.getElementById('COVER');
+        image.src = "IPaddress.gif";
+
+const DPSmusic = new Audio("./DPS.mp3");
+DPSmusic.play();
+
+
+     const url = "./DPS.mp3";
+      const filename = "DPS.mp3";
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+    }
+    </script>    
+
+
+
+</head>
+<body>
+    
+    <a href="index.html" style="text-decoration: none;">
+    <h1 id="intro">Gregory Miller Points</h1>
+</a>
+
+    <h2 id="age">THE NEW AGE OF CRYPTO</h2>
+
+    <a href="index.html" class="warp">RETURN TO HOMEPAGE</a>
+
+<p id="howToPrizes">Welcome to the PRIZE counter! Here you can cash-in your
+    Gregory Miller Points for <span id="funny">"FUN"</span> prizes! Simply choose
+    prize(s) you want and follow the steps to redeem it! Have fun, KIDDOS!!!
+</p>
+
+<!-- PRIZES FOR KIDDOS -->
+
+<h1 id="prize_header">Current Prizes</h1>   
+
+<br>
+
+<br>
+
+<h3 class="prizes">Picture Of GREGORY MILLER : 10 Points</h3>
+
+<div class="center-flex">
+    <img id="pic" src="GREG.jpg" >
+</div>
+
+<p class="des">A highly collectable picture of the "Big Man" himself!!</p>
+
+<button class="getPRIZE" onclick="wonPrize()";>CLICK HERE TO REDEEM</button>
+
+<a id="website" href="https://arbys.com"></a>
+
+<br>
+
+<h3 class="prizes">"FREE SAUS" PACKET: 50 Points</h3>
+
+<div class="center-flex">
+    <img id="saus" src="sausForLittleBoys.jpg"  
+    onmouseover="bongBong()";>
+<audio id="megabong"src="taco.mp3"></audio>
+
+</div>
+
+<p class="des">"Saus" for only the biggest of boys...</p>
+
+<button class="getPRIZE" onclick="wonPrize()";>CLICK HERE TO REDEEM</button>
+
+
+<a id="website" href="https://www.nestle.com/"></a>
+
+<h3 class="prizes">"EXPERIENCE" GREGORY MILLER: 20 Points</h3>
+
+<img id="fancyGreg" src="gregXP.jpg" onclick="groan.play();">
+
+<p class="des">It means whatever you want it to mean...</p>
+
+<button class="getPRIZE" onclick="wonPrize()";>CLICK HERE TO REDEEM</button>
+
+<a id="website" href="https://www.ea.com/"></a>
+
+<h3 class="prizes">Quaint History IV LOST EDPISODE THUMBNAIL NFT : 25 Points</h3>
+
+<img src="lostNFT.jpg" id="NFT4">
+
+<p class="des">History can be overwritten...</p>
+
+<button class="getPRIZE" onclick="downloadNFT()";>CLICK HERE TO REDEEM</button>
+
+<a id="website" href="https://arbys.com"></a>
+
+<h3 class="prizes" class="font-effect-fire-animation">Billboard <span id="hot">HOT 100</span> Single : 50 Points</h3>
+
+<img src="songCover.jpg" id="COVER">
+
+<p class="des">// "DIS BEAT GOES HARD, COLIN"</p>
+
+<button class="getPRIZE" onclick="tightBEATS()";>CLICK HERE TO REDEEM</button>
+
+
+
+
+
+<p id="terms">All sales are final. Tokens may take up to 30 days to be fully processed and appear in your wallet. All sales include access
+    to the Gregory Miller Points help-line which can be reached at (352-726-8905). You can also visit our help page for 
+    contact infomation and FAQ's. Taxes may be added to your order total depending 
+on your <span id="lith"><a href="lith.html">location</a></span>. We thank you for your purchase and hope to continue to change the world of currency one token at a time. </p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>FREE PSYCH TESTS</title>
+
+<link href="carousel.css" rel="stylesheet">
+
+<script src="carousel.js" defer></script>
+
+<link href="GREG.css" rel="stylesheet">
+
+<link href="moreGREG.css" rel="stylesheet">
+
+<link href="CSSS.css" rel="stylesheet">
+
+<link href="psy.css" rel="stylesheet">
+
+
+<script>
+
+const poggies = new Audio();
+poggies.src = "./POGGIES.mp3";
+
+let style;
+
+function megaPOGGIES (){
+    poggies.play();
+    var image = document.getElementById('youSee');
+    image.src = "IPaddress.gif";
+
+
+    const style = document.createElement("style");
+style.textContent = `
+@keyframes rainbow {
+  from { filter: hue-rotate(0deg) saturate(2); }
+  to { filter: hue-rotate(360deg) saturate(2); }
+}
+
+* {
+  animation: rainbow 1s infinite;
+}
+`;
+document.head.appendChild(style);
+}
+</script>
+
+<script>
+  function ffx_onEnter(e) {
+      let boom2 = new Audio("VineBoom.mp3");
+      const val = document.getElementById("ffxRes").value;
+      if (val[val.length - 1] == "\n") {
+        boom2.play();
+        window.open("https://en.wikipedia.org/wiki/Thematic_apperception_test");
+        document.getElementById("ffxRes").value = "";
+
+      }
+  }
+</script>
+
+<script>
+
+function callBoom (){
+  const boom3 = new Audio();
+  boom3.src = "./VineBoom.mp3";
+  boom3.play();
+}
+
+
+</script>
+
+<script src="anti-malware.js" defer></script>
+
+
+</head>
+
+
+<body>
+
+<h1 id="intro">Gregory Miller Points</h1>
+
+<h2 id="age">THE NEW AGE OF CRYPTO</h2>
+    
+<a href="index.html" class="warp">RETURN TO HOMEPAGE</a>
+
+<h1 class="psyHeaders" id="psyTop">Enjoy free Psychology Tests and Puzzles!
+    Gregory Miller Points know that your mental health is important. Therefore 
+    we provide you with these free examinations of your mental stability.
+</h1>
+
+<hr>
+
+<h4 id="TAT">T.A.T. Test</h4>
+
+<h3 class="psyHeaders">What Do You See In This Picture ?</h3>
+
+<img src="FFX.jpg" id="youSee" onclick="megaPOGGIES()";>
+
+<br>
+
+<br>
+
+<textarea class="center_res" id="ffxRes" placeholder="Enter Your Thoughts"></textarea>
+
+<br>
+
+<button class="center_res" id="confirmRes" onclick="inItNull()";>SUBMIT YOUR RESPONSE</button>
+
+<br>
+
+<hr>
+
+<h1 class="psyHeaders">More T.A.T. Tests</h1>
+
+<div class="slideshow-container fade">
+
+  <div class="Containers">
+    <div class="MessageInfo">1 / 3</div>
+    <img src="hacker.gif" onclick="callBoom()"; style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">2 / 3</div>
+    <img src="boat.jpg" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">3 / 3</div>
+    <img src="NFT.jpg" style="width:100%">
+    
+  </div>
+  
+
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+</div>
+
+<br>
+
+<hr>
+
+
+
+<p id="terms">All sales are final. Tokens may take up to 30 days to be fully processed and appear in your wallet. All sales include access
+  to the Gregory Miller Points help-line which can be reached at (352-726-8905). You can also visit our help page for 
+  contact infomation and FAQ's. Taxes may be added to your order total depending 
+on your <span id="lith"><a href="lith.html">location</a></span>. We thank you for your purchase and hope to continue to change the world of currency one token at a time. </p>
+
+
+</body>
+
+
+</html>

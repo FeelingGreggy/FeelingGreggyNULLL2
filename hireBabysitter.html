@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HIRE A BABYSITTER</title>
+
+    <link href="TpIcon.jpg" rel="icon">
+
+    <link href="TODDstyle.css" rel="stylesheet">
+
+    <script src="moreTPjava.js" defer></script>
+
+    <script>
+        function updateCheckboxList() {
+            var checkboxList = document.getElementById("checkboxList");
+            checkboxList.innerHTML = "";
+
+            var checkboxes = document.querySelectorAll("input[type='checkbox']");
+            checkboxes.forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    var listItem = document.createElement("li");
+                    listItem.innerText = checkbox.value;
+                    checkboxList.appendChild(listItem);
+                }
+            });
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="page-border">
+
+        <!-- SORRY -->
+        <div id="stickyCUM" style="position: sticky;">
+
+            <a href="babysitter.html" style="text-decoration: none;">
+                <h1 id="mainHeader">TP Todd's Chauffeur & Babysitting Service</h1>
+            </a>
+
+            <a href="babysitter.html">
+                <img src="TpIcon.jpg" id="topPIC" class="picture">
+            </a>
+
+        </div>
+
+        <br>
+
+        <h1 id="babyHeader"> Babysitting</h1>
+
+        <br>
+
+        <p id="DES-babysitter">Date Night? Working late? Whatever the reason TP Todd is willing to watch
+            your little ones. Simply check the boxes that apply to you and your kids
+            below to book <span id="internalTP">TP Todd</span> for your kids.
+        </p>
+
+        <hr id="bar">
+
+<!-- INPUT BOIS. They gather input -->
+
+<input type="checkbox" value="Fresh Spawn" class="option" onchange="updateCheckboxList()"><p class="internal">Fresh Spawn</p><br>
+<input type="checkbox" value="3-6 Years" class="option" onchange="updateCheckboxList()"><p class="internal">3-6 Years Old</p><br>
+<input type="checkbox" value="7-9 Years" class="option" onchange="updateCheckboxList()"><p class="internal">7-9 Years Old</p><br>
+<input type="checkbox" value="10-13 Years" class="option" onchange="updateCheckboxList()"><p class="internal">10-13 Years Old</p><br>
+<input type="checkbox" value="14-17 Years" class="option" onchange="updateCheckboxList()"><p class="internal">14-17 Years Old</p><br>
+<input type="checkbox" value="18+ Years" class="option" onchange="updateCheckboxList()"><p class="internal">18+ Years Old</p><br>
+<input type="checkbox" value="BOYS" class="option" onchange="updateCheckboxList()"><p class="internal">BOYS</p><br>
+<input type="checkbox" value="Females" class="option" onchange="updateCheckboxList()"><p class="internal">Females</p><br>
+<input type="checkbox" value="Introvert" class="option" onchange="updateCheckboxList()"><p class="internal">Introvert</p><br>
+<input type="checkbox" value="Extravert" class="option" onchange="updateCheckboxList()"><p class="internal">Extravert</p><br>
+
+
+
+
+        <div id="listBox">
+        <h2 id="configBabysitter">Selected Items:</h2>
+        <ul id="checkboxList"></ul>
+    </div>
+
+<button id="confirmBooking" onclick="bookingMade()";>CONFIRM</button>
+
+<br>
+
+    </div>
+</body>
+
+</html>
